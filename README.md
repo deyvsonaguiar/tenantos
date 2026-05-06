@@ -1,10 +1,27 @@
-# TenacitOS — Mission Control
+# TenantOS — Mission Control
 
 A real-time dashboard and control center for [OpenClaw](https://openclaw.ai) AI agent instances. Built with Next.js, React 19, and Tailwind CSS v4.
 
-> **TenacitOS** lives inside your OpenClaw workspace and reads its configuration, agents, sessions, memory, and logs directly from the host. No extra database or backend required — OpenClaw is the backend.
+> **TenantOS** is the `deyvsonaguiar` fork of the original TenacitOS project. It is being adapted for a Hostinger + Docker + Traefik deployment model while continuing to integrate directly with OpenClaw as the backend.
 
 ---
+
+## Fork status
+
+### Current direction
+- project name in operation: **TenantOS**
+- deployment target: **Hostinger VPS**
+- runtime model: **Docker + Traefik + HTTPS**
+- OpenClaw integration: **read-only mount from the existing host installation**
+
+### Public-safe notes
+- this repository may contain application code, Dockerfile, and public-safe deployment notes
+- secrets, validated host-specific operations, and troubleshooting history live in a separate private repository
+- no production secrets should ever be committed here
+
+### Related repositories
+- app repo: `https://github.com/deyvsonaguiar/tenantos`
+- private ops/docs repo: `https://github.com/deyvsonaguiar/tenantos-ops`
 
 ## Features
 
